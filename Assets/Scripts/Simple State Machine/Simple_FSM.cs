@@ -4,6 +4,14 @@ using UnityEngine;
 
 public class Simple_FSM : MonoBehaviour
 {
+    /*
+    
+    The simpleste version of a finite state machine
+
+    Runs the current state and changes state if another is returned
+
+     */
+
     public Simple_State currentState;
 
     private void Update()

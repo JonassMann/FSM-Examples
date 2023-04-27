@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+    // Extremely basic player movement script
+
     private Rigidbody2D rb;
 
     [SerializeField] private float speed;

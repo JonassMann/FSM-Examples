@@ -4,6 +4,15 @@ using UnityEngine;
 
 public class AFSM : MonoBehaviour
 {
+    /*
+    
+    A more advanced version of a Finite State Machine
+
+    In addition to previous functionality, breaks states up into blocks
+    Allows for more flexibility in State creation as blocks can be reused
+
+     */
+
     public AState currentState;
 
     private void Start()
